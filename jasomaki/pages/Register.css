@@ -1,0 +1,33 @@
+.inputFormReg::placeholder {
+  text-align: center;
+}
+.inputFormReg {
+  border: none;
+  border-bottom: 1px solid #d41dc5;
+  padding: 4px 0px 0px 0px;
+  font-size: larger;
+  width: 89%;
+  margin-top: 10px;
+  text-align: center;
+  color: blueviolet;
+  font-family: 'Arial', sans-serif; 
+}
+.FormReg {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  background-color: #d41dc5;
+  align-items: center;
+  padding: 12px;
+  border-radius: 20px;
+}
+h1 {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.btn_register {
+  height: 30px;
+  border-radius: 20px;
+  margin-top: 10px;
+}

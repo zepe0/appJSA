@@ -1,0 +1,82 @@
+#imgevento {
+  width: 98%;
+  height: 10vh;
+ 
+  border-radius: 20px;
+  object-fit: cover;
+  margin-top: 14px;
+}
+#bodyPruevas {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+#card {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  align-items: center;
+  background-color: rgba(122, 127, 199, 0.308);
+  padding: 8px;
+  border-radius: 40px;
+  margin-top: 10px;
+}
+#Nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 5vh;
+  background-color: rgba(208, 224, 219, 0.308);
+  align-items: center;
+  list-style: none;
+}
+#botones {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#Cardinfo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 93%;
+  padding: 10px;
+}
+#lista {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  overflow: auto;
+  height: 85vh;
+  background-color: rgba(240, 248, 255, 0.486);
+  border-radius: 20px;
+
+}
+
+.btnEvent {
+  width: 60vw;
+  margin-top: 8px;
+  border-radius: 40px;
+}
+.colum {
+  display: flex;
+  flex-direction: column;
+}
+.cardPagos {
+  display: flex;
+ 
+  flex-direction: row;
+  width: 93%;
+  justify-content: center;
+  margin-bottom: 6px;
+}
+.top {
+  position: sticky;
+  width: 100%;
+  margin-bottom: 10px;
+}

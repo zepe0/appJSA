@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  justify-content: center;
+
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.prenda{
+  max-width: 15vw;
+  font-size: 3vw;
+}
+.img{
+  width: 3vw;
+ filter: invert();
+}

@@ -1,0 +1,92 @@
+.itemListEvent {
+  flex: 0 0 80vw; /* Las tarjetas ocuparán el 80% del ancho de la ventana para dar espacio a ver parte de la siguiente */
+  width: 80vw; /* Define el ancho de las tarjetas */
+  padding: 10px;
+  box-sizing: border-box;
+  margin-right: 20px; /* Añade espacio entre las tarjetas */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #e89df062;
+  box-shadow: 6px 6px 6px 5px rgba(23, 24, 24, 0.822);
+  scroll-snap-align: start; /* Cada tarjeta se alinea al principio al hacer scroll */
+}
+.footerItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.titulo {
+  margin: 0;
+  padding-right: 40px;
+  white-space: nowrap;
+  text-overflow: ellipsis; /* Agrega puntos suspensivos si el texto es demasiado largo */
+}
+
+.fa-check {
+  color: green;
+  font-size: 24px;
+  background-color: rgba(240, 248, 255, 0.493);
+  border-radius: 20px;
+  padding: 4px;
+  margin-left: 10px;
+}
+.desc {
+  text-align: center;
+}
+.times {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 100%;
+  border-color: #c553c8;
+  font-size: 14px;
+}
+
+.times p {
+  margin: 0;
+}
+dialog {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  background: rgba(236, 232, 232, 0.13);
+  z-index: 1000;
+}
+
+dialog::backdrop {
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+.listEvent {
+  display: flex;
+  flex-direction: row; /* Las tarjetas se organizan en fila */
+  overflow-x: scroll; /* Habilita el desplazamiento horizontal */
+  scroll-snap-type: x mandatory; /* Ajusta el scroll para que se detenga en cada tarjeta */
+  scroll-behavior: smooth; /* Suaviza el scroll */
+  width: 100vw; /* Ocupa el 100% del ancho de la ventana */
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  background-color: #c453c841;
+  scrollbar-width: none; /* Oculta el scrollbar en Firefox */
+} 
+
+.listEvent::-webkit-scrollbar {
+  display: none; /* Oculta el scrollbar en navegadores como Chrome */
+}
+.check {
+  color: black;
+  background: rgba(172, 255, 47, 0.356);
+  border: 2px solid rgb(172, 255, 47);
+  border-radius: 20px;
+  text-align: center;
+  width: 23px; /* 
+  box-shadow: 2px 2px 7px 3px rgba(81, 238, 42, 0.726); */
+}
