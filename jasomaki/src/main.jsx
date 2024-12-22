@@ -6,17 +6,15 @@ import { RouterProvider,createHashRouter } from "react-router-dom";
 import HomeUser from "../pages/Prueva.jsx";
 const Router = createHashRouter([
   {
-    path: "/",
-    element: <HomeUser />,
+    path: "/*",
+    element: <App />,
   }
 ]);
-
-
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
     <RouterProvider router={Router}>
-  
+      <App />
     </RouterProvider>
   </StrictMode>
 );
